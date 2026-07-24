@@ -1,0 +1,191 @@
+
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+    background:#ffffff;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 50px;
+
+    background:white;
+    border-bottom:1px solid #ddd;
+}
+
+/* Logo */
+
+.logo{
+    width:100px;
+    height:auto;
+}
+
+/* Navigation Links */
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+
+    text-decoration:none;
+    color:#333;
+    font-size:17px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#3e3efc;
+}
+
+/* Buttons */
+
+.nav-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.login{
+
+    text-decoration:none;
+
+    color:#333;
+
+    padding:10px 22px;
+
+    border:2px solid #3e3efc;
+
+    border-radius:8px;
+
+    transition:.3s;
+}
+
+.login:hover{
+
+    background:#3e3efc;
+
+    color:white;
+}
+
+.signup{
+
+    text-decoration:none;
+
+    background:#3e3efc;
+
+    color:white;
+
+    padding:10px 22px;
+
+    border-radius:8px;
+
+    transition:.3s;
+}
+
+.signup:hover{
+
+    background:#1f1fd6;
+}
+
+/* Hero */
+
+.hero{
+
+    padding:80px 70px;
+}
+
+/* Level Badge */
+
+.level{
+
+    display:inline-block;
+
+    background:#dce7ff;
+
+    color:#3e3efc;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+}
+
+/* Heading */
+
+.hero h1{
+
+    margin-top:30px;
+
+    font-size:25px;
+
+    color:#222;
+}
+
+.hero h2{
+
+    margin-top:15px;
+
+    font-size:25px;
+
+    color:#3e3efc;
+}
+
+/* Paragraph */
+
+.hero p{
+
+    margin-top:25px;
+
+    width:550px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#555;
+}
+
+/* Button */
+
+.hero button{
+
+    margin-top:35px;
+
+    background:#3e3efc;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hero button:hover{
+
+    background:#1f1fd6;
+}
